@@ -1,0 +1,24 @@
+{"guidelines":[{
+    "id": 1,
+    "url": "https://webbriktlinjer.se/riktlinjer/121-ange-i-kod-vad-sidans-olika-delar-har-for-roll/",
+    "name": "Ange i kod vad sidans olika delar har för roll",
+    "description": "Öka chansen att informationen presenteras korrekt oavsett mottagarens verktyg, genom att använda html-elementen på rätt sätt.",
+    "tags": "DOS-lagen, Omfattande riktlinje",
+    "updated": "2019-02-18"
+},{
+    "id": 2,
+    "url": "https://webbriktlinjer.se/riktlinjer/141-ange-sidans-sprak-i-koden/",
+    "name": "Ange sidans språk i koden",
+    "description": "För att öka sannolikheten att till exempel skärmläsare presenterar innehållet korrekt bör html-koden ange aktuellt språk med hjälp av lang-attribut. \r\n",
+    "tags": "DOS-lagen, Lågt hängande frukt",
+    "updated": "2018-12-05"
+},{
+    "id": 2,
+    "url": "https://webbriktlinjer.se/riktlinjer/142-ange-sprakforandringar-koden/",
+    "name": "Ange språkförändringar i koden",
+    "description": "För att öka sannolikheten att till exempel skärmläsare presenterar innehållet korrekt bör html-koden ange aktuellt språk med hjälp av lang-attribut.\r\n",
+    "tags": "DOS-lagen",
+    "updated": "2018-12-05"
+}
+]
+}

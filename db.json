@@ -1,24 +1,403 @@
 {"guidelines":[{
     "id": 1,
-    "url": "https://webbriktlinjer.se/riktlinjer/121-ange-i-kod-vad-sidans-olika-delar-har-for-roll/",
+    "url": "./guidelinesPages/1.html",
+    "name": "Beskriv med text allt innehåll som inte är text",
+    "description": "Alla förgrundsbilder ska ha alt-attributet (tomt eller ifyllt). Bakgrundsbilder omfattas inte av riktlinjen så dem kan du bortse ifrån. Är bilden innehållsbärande så ska den ha ifylld alt-text som presenterar motsvarande information som bilden i dess sammanhang. Är bilden rent dekorativ så ska den ha en tom alt-text.",
+    "tag": "Bilder",
+    "kriterietId": "1.1.1",
+    "kriteriet": "A"
+},{
+    "id": 2,
+    "url": "./guidelinesPages/2.html",
+    "name": "Erbjud alternativ om en inspelning enbart består av ljud eller video",
+    "description": "Ljud och video är tidsberoende medan text och bilder är tidsoberoende. Kolla att för förinspelade ljudspår finns ett tidsoberoende alternativ som presenterar ett fullgott alternativ. Till exempel ett manuskript som redigerats så att det motsvarar inspelningens verkliga innehåll, eller en transkribering. Detta gäller alltså till exempel podcasten Skatteskolan. För förinspelad video finns antingen ett tidsoberoende alternativ eller ett ljudspår som presenterar motsvarande information.",
+    "tag": "Ljud och video",
+    "kriterietId": "1.2.1",
+    "kriteriet": "A"
+},{
+    "id": 3,
+    "url": "./guidelinesPages/3.html",
+    "name": "Texta inspelad rörlig media (video, ljud, animationer)",
+    "description": "Kontrollera att produktioner där ljud är en av komponenterna har en textversion av ljudinnehållet. Ett exempel kan vara en online-föreläsning med informativa bilder och en berättarröst.",
+    "tag": "Ljud och video",
+    "kriterietId": "1.2.2",
+    "kriteriet": "A"
+},{
+    "id": 4,
+    "url": "./guidelinesPages/4.html",
+    "name": "Erbjud alternativ till videoinspelningar",
+    "description": "Inspelad digital video ska ha undertexter (kallas även textbeskrivningar eller textremsa), utom när videon är ett mediealternativ till text (men då ska det tydligt framgå). Kontrollera att videoinspelningar har alternativ: syntolkning (ljudbeskrivning) eller presenterad som text.",
+    "tag": "Ljud och video",
+    "kriterietId": "1.2.3",
+    "kriteriet": "A"
+},{
+    "id": 5,
+    "url": "./guidelinesPages/5.html",
+    "name": "Texta direktsändningar",
+    "description": "Direkttextning är mer värdefullt än om videon textas i efterhand eftersom den som behöver textning annars måste vänta. Förutom personer med nedsatt hörsel finns det många andra som har nytta av undertext. Till exempel den som inte har högtalare, eller som av något skäl blir distraherad, eller kanske har ett annat modersmål. Denna riktlinje gäller direktsändningar, men i övrigt har den samma innebörd som Texta inspelad rörlig media (video, ljud, animationer)",
+    "tag": "Ljud och video",
+    "kriterietId": "1.2.4",
+    "kriteriet": "AA"
+},{
+    "id": 6,
+    "url": "./guidelinesPages/6.html",
+    "name": "Syntolka videoinspelningar",
+    "description": "Kontrollera att videoinspelningar är syntolkade. För många videor så räcker det med att vi ser till att den befintliga berättarrösten beskriver allt väsentligt. Vi behöver inte lägga på ett ytterligare ljudspår. Våra originalvideor kan vara tillgängliga utan större ansträngning om vi gör rätt från början.",
+    "tag": "Ljud och video",
+    "kriterietId": "1.2.5",
+    "kriteriet": "AA"
+},{
+    "id": 7,
+    "url": "./guidelinesPages/7.html",
     "name": "Ange i kod vad sidans olika delar har för roll",
-    "description": "Öka chansen att informationen presenteras korrekt oavsett mottagarens verktyg, genom att använda html-elementen på rätt sätt.",
-    "tags": "DOS-lagen, Omfattande riktlinje",
-    "updated": "2019-02-18"
+    "description": "Kontrollera att allt innehåll är uppmärkt med semantiskt korrekt HTML och, där det behövs, aria-attribut för att förmedla struktur, relationer och betydelse. Bland mycket annat ska rubrikstrukturen vara korrekt.",
+    "tag": "Kod",
+    "kriterietId": "1.3.1",
+    "kriteriet": "A"
 },{
-    "id": 2,
-    "url": "https://webbriktlinjer.se/riktlinjer/141-ange-sidans-sprak-i-koden/",
+    "id": 8,
+    "url": "./guidelinesPages/8.html",
+    "name": "Presentera innehållet i en meningsfull ordning för alla",
+    "description": "Allt innehåll kommer i en meningsfull logisk ordning oavsett hur användaren tar del av det. Redaktionellt: Det viktigaste innehållet – eller en kort sammanfattning – kommer högst upp. Det finns en röd tråd så att det är lätt att hänga med. Informationen kommer i rätt ordning så att ingen del av texten förutsätter kunskap om något som finns längre ner. Tekniskt: Det enklaste sättet att testa detta är att stänga av sidans stilmall (CSS). I Firefox trycker du på ALT-tangenten och väljer i menyn: Visa > Sidstil > Ingen (Figur 2). Då visas innehållet i sin ursprungliga ordning, vilket är den ordning som förmedlas till ett hjälpmedel såsom en skärmläsare. För att uppfylla detta kriterium krävs att innehållets ordning är meningsfull oavsett om du har stilmallen på eller av.",
+    "tag": "Struktur",
+    "kriterietId": "1.3.2",
+    "kriteriet": "A"
+},{
+    "id": 9,
+    "url": "./guidelinesPages/9.html",
+    "name": "Gör inte instruktioner beroende av sensoriska kännetecken",
+    "description": "Hänvisningar till komponenter och innehåll är inte enbart beroende av sensoriska kännetecken såsom färg, form, storlek, placering, orientering eller ljud.",
+    "tag": "Färg och form",
+    "kriterietId": "1.3.3",
+    "kriteriet": "A"
+},{
+    "id": 10,
+    "url": "./guidelinesPages/10.html",
+    "name": "Skapa en design som fungerar oavsett skärmens riktning.",
+    "description": "Skapa därför en design så att innehåll och funktioner är tillgängliga oavsett skärmens riktning. Då kan var och en välja det läge de föredrar.",
+    "tag": "Storlek och skärm",
+    "kriterietId": "1.3.4",
+    "kriteriet": "AA"
+},{
+    "id": 11,
+    "url": "./guidelinesPages/11.html",
+    "name": "Märk upp vanliga formulärfält i koden",
+    "description": "Kontrollera att vanliga typer av inmatningsfält erbjuder automatisk komplettering av inmatningen där det är önskvärt. Kolla så att vanliga typer av inmatningsfält har attributet autocomplete med förväntat innehåll angivet.",
+    "tag": "Kod och formulär",
+    "kriterietId": "1.3.5",
+    "kriteriet": "AA"
+},{
+    "id": 12,
+    "url": "./guidelinesPages/12.html",
+    "name": "Använd inte enbart färg för att förmedla information",
+    "description": "Kontrollera att färg inte används som det enda visuella sättet att förmedla information eller särskilja ett visuellt element. Ett vanligt exempel på när detta är viktigt är länkar i löpande text. Om dessa endast skiljer sig i färg är de lätta att missa för vem som helst. En vanlig brist är användning av röd färg som enda sättet att indikera ett fel.",
+    "tag": "Färg och form",
+    "kriterietId": "1.4.1",
+    "kriteriet": "A"
+},{
+    "id": 13,
+    "url": "./guidelinesPages/13.html",
+    "name": "Skapa en flexibel layout som fungerar vid förstoring eller liten skärm",
+    "description": "Layouten fungerar på en 320 pixlar bred skärm utan att information eller funktion går förlorad och utan scroll i mer än en riktning. Denna checkpunkt säkerställer i praktiken att sidans design är responsiv.",
+    "tag": "Storlek och skärm",
+    "kriterietId": "1.4.10",
+    "kriteriet": "AA"
+},{
+    "id": 14,
+    "url": "./guidelinesPages/14.html",
+    "name": "Använd tillräckliga kontraster i komponenter och grafik",
+    "description": "Text är ofta det huvudsakliga informationsbärande innehållet på en sida, men även grafik kan vara informationsbärande. Då måste även den möta kontrastkraven. Detsamma gäller komponenter, såsom knappar och formulärfält samt indikatorn för tangentbordsfokus.",
+    "tag": "Färg och form",
+    "kriterietId": "1.4.11",
+    "kriteriet": "AA"
+},{
+    "id": 15,
+    "url": "./guidelinesPages/15.html",
+    "name": "Se till att det går att öka avstånd mellan tecken, rader, stycken och ord",
+    "description": "Om du inte redan gjort det, se till att du har funktionen Text spacing installerad. Med texten fortsatt inzoomad till 200 % aktiverar du Text spacing. Det ska vara möjligt att ta del av allt innehåll och använda alla funktioner på sidan med dessa inställningar. Kontrollera att inget innehåll döljs eller blir oläsbart. Många användare, till exempel dyslektiker och personer med nedsatt syn, behöver kunna påverka textstorlek, avståndet mellan stycken, rader, ord och tecken för att lättare kunna läsa. Ladda om sidan och zooma ut till 100 % innan du går vidare!",
+    "tag": "Storlek och skärm",
+    "kriterietId": "1.4.12",
+    "kriteriet": "AA"
+},{
+    "id": 16,
+    "url": "./guidelinesPages/16.html",
+    "name": "Popup-funktioner ska kunna hanteras och stängas av alla",
+    "description": "Innehåll som dyker upp vid fokus är tillgängligt oavsett zoom och går att stängas/tas bort enkelt (till exempel med ESC). Det kan gälla till exempel undermenyer, tooltips och popup-fönster. Tyvärr skapar sådant innehåll annars ofta tillgänglighetsproblem, till exempel för att användaren inte har aktiverat funktionen med avsikt; användaren inte blir medveten om att det har dykt upp nytt innehåll eller för att det nya innehållet stör användarens förmåga att genomföra en uppgift. Nu kan du använda musen igen och testa samma sak vid hover, alltså med muspekaren över element. Innehåll som dyker upp vid hover ska förbli synligt tills pekaren förs utanför området eller tills användaren döljer det.",
+    "tag": "Tangentbord",
+    "kriterietId": "1.4.13",
+    "kriteriet": "AA"
+},{
+    "id": 17,
+    "url": "./guidelinesPages/17.html",
+    "name": "Ge användaren möjlighet att pausa, stänga av eller sänka ljud",
+    "description": "Ljud som spelas upp automatiskt så går att pausa, stoppa eller sänka volymen på.",
+    "tag": "Störande",
+    "kriterietId": "1.4.2",
+    "kriteriet": "A"
+},{
+    "id": 18,
+    "url": "./guidelinesPages/18.html",
+    "name": "Använd tillräcklig kontrast mellan text och bakgrund",
+    "description": "Kolla så att det inte finns någon text på sidan som riskerar vara svårläst på grund av dålig kontrast. Datumen möter inte kontrastkraven. Vid simulering av nedsatt syn blir datumen nästintill omöjliga att läsa, medan övrig text är hjälpligt läsbar. Om du misstänker att en text har för låg kontrast så kan du enkelt kontrollera det med hjälp av kontrastverktyget i Wave. Tänk också på att textens bakgrund kan variera beroende på fönstrets storlek, eller om den visas med mobiltelefon. Det finns säkra, manuella sätt att mäta kontrast i de fall du är osäker.",
+    "tag": "Storlek och skärm",
+    "kriterietId": "1.4.3",
+    "kriteriet": "AA"
+},{
+    "id": 19,
+    "url": "./guidelinesPages/19.html",
+    "name": "Se till att text går att förstora utan problem",
+    "description": "Kontrollera att det går att förstora texten till 200 % utan att information eller funktion går förlorad. Det gäller alltså inte zoom av hela sidan, utan zoom av texten. I Firefox trycker du på ALT-tangenten och väljer i menyn: Visa > Zoom > Zooma endast texten.",
+    "tag": "Storlek och skärm",
+    "kriterietId": "1.4.4",
+    "kriteriet": "AA"
+},{
+    "id": 20,
+    "url": "./guidelinesPages/20.html",
+    "name": "Använd text, inte bilder, för att visa text",
+    "description": "Kontrollera så att all text utgörs av text och inte bild av text. Logotyper är undantagna, men Bolagsverkets logga ska ha alt-texten ”Bolagsverket” för att följa riktlinje 1.1.1 ovan. För att testa om en text utgörs av text så kan du försöka markera texten.",
+    "tag": "Storlek och skärm",
+    "kriterietId": "1.4.5",
+    "kriteriet": "AA"
+},{
+    "id": 21,
+    "url": "./guidelinesPages/21.html",
+    "name": "Utveckla systemet så att det går att hantera med enbart tangentbordet",
+    "description": "Systemet och alla dess funktioner ska gå att hantera med enbart tangentbord. Den som bara kan eller vill använda tangentbordet (eller hjälpmedel som kopplas till tangentbords-kommandon) är beroende av att systemet inte förutsätter att användaren har till exempel mus eller pekskärm.",
+    "tag": "Tangentbord",
+    "kriterietId": "2.1.1",
+    "kriteriet": "A"
+},{
+    "id": 22,
+    "url": "./guidelinesPages/22.html",
+    "name": "Se till att markören inte fastnar vid tangentbordsnavigation",
+    "description": "Om tangentbordsfokus flyttas till en komponent så kan fokus också flyttas bort från samma komponent via tangentbord.",
+    "tag": "Tangentbord",
+    "kriterietId": "2.1.2",
+    "kriteriet": "A"
+},{
+    "id": 23,
+    "url": "./guidelinesPages/23.html",
+    "name": "Skapa kortkommandon med varsamhet",
+    "description": "Det finns inga en-tangentskommandon i tjänsten (stäm av mot kraven). Om det mot förmodan måste finnas en-tangentskommandon så ska det gå att stänga av den funktionen.",
+    "tag": "Tangentbord",
+    "kriterietId": "2.1.4",
+    "kriteriet": "A"
+},{
+    "id": 24,
+    "url": "./guidelinesPages/24.html",
+    "name": "Ge användarna möjlighet att justera tidsbegränsningar",
+    "description": "Det finns ingen tidsgräns för hur användaren interagerar med sidan. Om tidsgräns finns kan användaren stänga av, anpassa eller utöka den till minst 10 gånger ursprungsvärdet.",
+    "tag": "Störande",
+    "kriterietId": "2.2.1",
+    "kriteriet": "A"
+},{
+    "id": 25,
+    "url": "./guidelinesPages/25.html",
+    "name": "Ge användarna möjlighet att pausa eller stänga av rörelser",
+    "description": "Inget innehåll rör sig, blinkar, skrollar eller uppdateras automatiskt. Om sådant innehåll finns kan användaren pausa, stoppa eller dölja det. Ett undantag här är ”laddsnurror” och förloppsindikatorer (Figur 1) eftersom dessa hjälper användaren genom att visa att en tom sida inte har ”frusit” utan att innehållet håller på att laddas.",
+    "tag": "Störande",
+    "kriterietId": "2.2.2",
+    "kriteriet": "A"
+},{
+    "id": 26,
+    "url": "./guidelinesPages/26.html",
+    "name": "Orsaka inte epileptiska anfall genom blinkande innehåll",
+    "description": "Ingen del av innehållet blinkar mer än 3 gånger under en 1-sekundsperiod.",
+    "tag": "Störande",
+    "kriterietId": "2.3.1",
+    "kriteriet": "A"
+},{
+    "id": 27,
+    "url": "./guidelinesPages/27.html",
+    "name": "Erbjud möjlighet att hoppa förbi återkommande innehåll",
+    "description": "Det ska finnas genvägar i strukturen, till exempel genom så kallade skipplänkar (Figur 8). Det kan ta lång tid att ta sig till olika delar av ett dokument när man navigerar med tangentbord, eftersom man normalt måste stega sig förbi varje länk. Webbplatser som har ett omfattande och komplext menysystem med många länkar kan försvåra avsevärt för många användare. Kontrollera att sidan använder korrekt HTML5-struktur: <header>, <nav>, <main>, <aside>, <footer> et c. och att den kompletterats med aria-landmärken där det behövs; eller att det finns skipplänkar för att hoppa över innehåll som upprepas på flera av webbplatsens sidor.",
+    "tag": "Tangentbord och kod",
+    "kriterietId": "2.4.1",
+    "kriteriet": "A"
+},{
+    "id": 28,
+    "url": "./guidelinesPages/28.html",
+    "name": "Skriv beskrivande sidtitlar",
+    "description": "En bra, beskrivande titel sammanfattar sidans ämne eller innehåll. Titeln syns i webbläsarens flikar. Håll muspekaren över fliken för att se hela titeln. Kontrollera i koden att <title>-elementet har ett innehåll som beskriver den specifika sidan. Varje sida på en webbplats, liksom andra typer av dokument, ska ha en unik titel.    ",
+    "tag": "Kod och struktur",
+    "kriterietId": "2.4.2",
+    "kriteriet": "A"
+},{
+    "id": 29,
+    "url": "./guidelinesPages/29.html",
+    "name": "Gör en logisk tab-ordning",
+    "description": "Allt innehåll som användaren kan navigera till via tangentbord kommer i en logisk navigeringsordning och fokus hoppar inte runt på sidan på ett oförutsägbart sätt. Om 2.4.7 ovan är underkänd och du har svårt att se fokus så blir denna checkpunkt svår att bedöma.",
+    "tag": "Tangentbord",
+    "kriterietId": "2.4.3",
+    "kriteriet": "A"
+},{
+    "id": 30,
+    "url": "./guidelinesPages/30.html",
+    "name": "Skriv tydliga länkar",
+    "description": "Syftet med alla länkar framgår av länktexten. Användaren ska kunna förstå vart länken leder även när den är lyft ur sitt sammanhang. Tydliga och informativa länkar gör att användaren snabbare hittar den information de söker. De underlättar även för användare med kognitiva begränsningar. Ett exempel på ett typiskt fel: Klicka här för att logga in! En bättre variant skulle vara: Logga in.",
+    "tag": "Struktur",
+    "kriterietId": "2.4.4",
+    "kriteriet": "A"
+},{
+    "id": 31,
+    "url": "./guidelinesPages/31.html",
+    "name": "Erbjud användarna flera olika sätt att navigera",
+    "description": "Det finns mer än ett sätt att hitta en webbsida inom tjänsten eller webbplatsen, utom när sidan är ett resultat av eller ett steg i en process. Exempel: sökfunktion, navigeringsmeny, sidkarta, innehållsförteckning, A-Ö.",
+    "tag": "Struktur",
+    "kriterietId": "2.4.5",
+    "kriteriet": "AA"
+},{
+    "id": 32,
+    "url": "./guidelinesPages/32.html",
+    "name": "Skriv beskrivande rubriker och etiketter",
+    "description": "Kolla att alla rubriker på sidan beskriver ämnet eller syftet med det avsnitt som följer och alla ledtexter och etiketter beskriver ämnet eller syftet med det element de tillhör.  Kontrollera att alla ledtexter och etiketter beskriver ämnet eller syftet med det element de tillhör.",
+    "tag": "Störande och formulär",
+    "kriterietId": "2.4.6",
+    "kriteriet": "AA"
+},{
+    "id": 33,
+    "url": "./guidelinesPages/33.html",
+    "name": "Markera tydligt vilket fält eller element som är i fokus",
+    "description": "Det framgår tydligt vilket element på sidan som har tangentbordsfokus. När fokus hoppar långt på sidan ska det uppfattas i ögonvrån. En tjock ram med framträdande färg, eller en invertering av elementets färger är exempel på godkända varianter.",
+    "tag": "Tangentbord",
+    "kriterietId": "2.4.7",
+    "kriteriet": "AA"
+},{
+    "id": 34,
+    "url": "./guidelinesPages/34.html",
+    "name": "Erbjud alternativ till komplexa fingerrörelser",
+    "description": "Kontrollera att all funktionalitet som kräver flera fingrar eller rörelser är också hanterbar med ett enda finger utan rörelser. När du till exempel tittar på en karta i mobilen så kan du zooma med två fingrar genom att dra isär dem, men du kan även (oftast) klicka på en plus-knapp.",
+    "tag": "Tangentbord",
+    "kriterietId": "2.5.1",
+    "kriteriet": "A"
+},{
+    "id": 35,
+    "url": "./guidelinesPages/35.html",
+    "name": "Gör det möjligt att ångra klick",
+    "description": "Funktionalitet som är hanterbar med muspekare eller finger slutförs först när fingret lyfts från mus eller skärm, och ingen del av funktionen utförs dessförinnan. På så sätt går det att ångra sig.",
+    "tag": "Storlek och skärm",
+    "kriterietId": "2.5.2",
+    "kriteriet": "A"
+},{
+    "id": 36,
+    "url": "./guidelinesPages/36.html",
+    "name": "Möjliggör röststyrning av knappar och kontroller",
+    "description": "Kontrollera att text som är synlig på knappar och andra gränssnittskontroller också finns i, och överensstämmer med, den maskinläsbara etikett som representerar kontrollen i exempelvis program för röststyrning. Den som använder röststyrning säger vanligtvis det som står på en knapp för att använda knappen. Detta fungerar om det som står på knappen motsvarar den maskinläsbara texten. Upplevelsen för seende som använder skärmläsare blir också bättre om uppläst text matchar det som visas på skärmen.",
+    "tag": "Kod",
+    "kriterietId": "2.5.3",
+    "kriteriet": "A"
+},{
+    "id": 37,
+    "url": "./guidelinesPages/37.html",
+    "name": "Erbjud alternativ till rörelsestyrning",
+    "description": "Förmodligen aldrig aktuell för våra webbplatser, tjänster eller appar. Funktionalitet som är hanterbar genom att röra inmatningsenheten eller genom rörelser hos användaren är också hanterbar via användargränssnittskomponenter, och respons på rörelsen går att stänga av för att undvika oavsiktlig aktivering.",
+    "tag": "Storlek och skärm",
+    "kriterietId": "2.5.4",
+    "kriteriet": "A"
+},{
+    "id": 38,
+    "url": "./guidelinesPages/38.html",
     "name": "Ange sidans språk i koden",
-    "description": "För att öka sannolikheten att till exempel skärmläsare presenterar innehållet korrekt bör html-koden ange aktuellt språk med hjälp av lang-attribut. \r\n",
-    "tags": "DOS-lagen, Lågt hängande frukt",
-    "updated": "2018-12-05"
+    "description": "Kolla att det språk som sidans huvudinnehåll är skrivet i är angivet i ett lang-attribut i <html>-elementet. Detta är viktigt för bland andra användare med skärmläsare. För svenska sidor är både lang='sv-SE' och lang='sv' godkända varianter.",
+    "tag": "Kod",
+    "kriterietId": "3.1.1",
+    "kriteriet": "A"
 },{
-    "id": 2,
-    "url": "https://webbriktlinjer.se/riktlinjer/142-ange-sprakforandringar-koden/",
+    "id": 39,
+    "url": "./guidelinesPages/39.html",
     "name": "Ange språkförändringar i koden",
-    "description": "För att öka sannolikheten att till exempel skärmläsare presenterar innehållet korrekt bör html-koden ange aktuellt språk med hjälp av lang-attribut.\r\n",
-    "tags": "DOS-lagen",
-    "updated": "2018-12-05"
+    "description": "Språket är angivet för varje avsnitt eller fras som är på ett annat språk än omgivande text genom lang-attribut. Då slipper hjälpmedelsanvändaren plötsliga inslag av svengelska! Exempel från en tänkt svensk sida: <h2 lang='en-US'>Accessibility</h2>",
+    "tag": "Kod",
+    "kriterietId": "3.1.2",
+    "kriteriet": "AA"
+},{
+    "id": 40,
+    "url": "./guidelinesPages/40.html",
+    "name": "Utför inga oväntade förändringar vid fokusering",
+    "description": "Att en komponent får fokus ändrar inte kontexten. Inget oförutsägbart ska hända då ett element får fokus.",
+    "tag": "Tangentbord",
+    "kriterietId": "3.2.1",
+    "kriteriet": "A"
+},{
+    "id": 41,
+    "url": "./guidelinesPages/41.html",
+    "name": "Utför inga oväntade förändringar vid inmatning",
+    "description": "Testa att inget överraskande händer, till exempel att kontexten helt ändras, då du ändrar värdet i ett element.",
+    "tag": "Formulär",
+    "kriterietId": "3.2.2",
+    "kriteriet": "A"
+},{
+    "id": 42,
+    "url": "./guidelinesPages/42.html",
+    "name": "Var konsekvent i navigation, struktur och utformning",
+    "description": "Navigeringsfunktioner som upprepas på flera av webbplatsens sidor presenteras i samma inbördes ordning.",
+    "tag": "Struktur",
+    "kriterietId": "3.2.3",
+    "kriteriet": "AA"
+},{
+    "id": 43,
+    "url": "./guidelinesPages/43.html",
+    "name": "Benämn funktioner konsekvent",
+    "description": "Allteftersom du granskar fler delar av webbplatsen och så kommer du stöta på samma komponenter på flera sidor. Jämför då namn, ledtext/etikett, textalternativ så att de är konsekventa. Om till exempel ett fält för inmatning av personnamn har ledtexten Namn på en sida så ska den inte ha ledtexten För- och efternamn på en annan.",
+    "tag": "Formulär",
+    "kriterietId": "3.2.4",
+    "kriteriet": "AA"
+},{
+    "id": 44,
+    "url": "./guidelinesPages/44.html",
+    "name": " Visa att ett fel uppstått och beskriv det tydligt",
+    "description": "Testa att mata in felaktigheter och/eller lämna obligatoriska fält tomma i tjänsten. Om inmatningsfel upptäcks automatiskt så ska det som är fel markeras och felet beskrivas för användaren med text. Om ett inmatningsfel upptäcks automatiskt så ska det som är fel markeras och felet beskrivas för användaren med text. Fältet markeras med attributet aria-invalid. Om valideringen sker med JavaScript ska behållaren för felmeddelandet vara en live region. Felmeddelandet bör ligga i ett <strong>, antingen inuti ledtexten eller mellan ledtext och fält. Fältet bör referera till felmeddelandet med aria-errormessage.",
+    "tag": "Formulär och kod",
+    "kriterietId": "3.3.1",
+    "kriteriet": "A"
+},{
+    "id": 45,
+    "url": "./guidelinesPages/45.html",
+    "name": "Skapa tydliga och klickbara fältetiketter",
+    "description": "Kontrollera att om ett särskilt format förväntas för inmatade uppgifter framgår det tydligt i ledtexten. Det framgår tydligt vilka fält som är obligatoriska alternativt valfria. Ledtexter är visuellt placerade så att det inte uppstår några tvetydigheter om vilket fält de tillhör. Kontrollera att om ett särskilt format förväntas för inmatade uppgifter framgår det tydligt i ledtexten. Det framgår tydligt vilka fält som är obligatoriska alternativt valfria. Ledtexter är visuellt placerade så att det inte uppstår några tvetydigheter om vilket fält de tillhör.  ",
+    "tag": "Formulär och kod",
+    "kriterietId": "3.3.2",
+    "kriteriet": "A"
+},{
+    "id": 46,
+    "url": "./guidelinesPages/46.html",
+    "name": "Ge förslag på hur fel kan rättas till",
+    "description": "Kolla så att om inmatningsfel upptäcks automatiskt och det finns kända korrigeringsförslag så ges förslagen till användaren, utom om det skulle äventyra säkerheten eller syftet med innehållet.",
+    "tag": "Formulär",
+    "kriterietId": "3.3.3",
+    "kriteriet": "AA"
+},{
+    "id": 47,
+    "url": "./guidelinesPages/47.html",
+    "name": "Ge möjlighet att ångra, korrigera, eller bekräfta vid viktiga transaktioner",
+    "description": "För sidor som innebär att användare ingår rättsliga åtaganden, utför ekonomiska transaktioner, ändrar/raderar användarstyrda data et c. ska minst ett av följande gälla: åtgärden kan ångras, och/eller; inmatat data kontrolleras och användaren ges möjlighet att rätta hittade inmatningsfel och/eller; det finns en funktion för att förhandsgranska, bekräfta och rätta till information innan åtgärden slutförs ",
+    "tag": "Formulär",
+    "kriterietId": "3.3.4",
+    "kriteriet": "AA"
+},{
+    "id": 48,
+    "url": "./guidelinesPages/48.html",
+    "name": "Se till att koden validerar",
+    "description": "Verifiera att koden validerar utan allvarliga fel. Använd Web Developer. Varningar och vissa fel kan vara ok beroende på kontext.",
+    "tag": "Formulär",
+    "kriterietId": "4.1.1",
+    "kriteriet": "A"
+},{
+    "id": 49,
+    "url": "./guidelinesPages/49.html",
+    "name": "Se till att skräddarsydda komponenter fungerar i hjälpmedel",
+    "description": "Kontrollera att alla komponenter som till exempel skapats i JavaScript i användargränssnittet har ett namn och en roll som hjälpmedel kan komma åt. Många användare behöver hjälpmedel såsom skärmläsarprogram, förstoringsprogram punktdisplay med mera. Dessa hjälpmedel kommunicerar med operativsystemets tillgänglighets-API. För att det ska fungera behöver varje del av en webbsida eller applikation vid varje tillfälle exponera sitt namn, sin roll och sitt aktuella värde. Då kan hjälpmedlet presentera applikationen på ett korrekt sätt för användaren.",
+    "tag": "Formulär",
+    "kriterietId": "4.1.2",
+    "kriteriet": "A"
+},{
+    "id": 50,
+    "url": "./guidelinesPages/50.html",
+    "name": "Se till att hjälpmedel kan presentera meddelanden som inte är i fokus",
+    "description": "Kontrollera att statusmeddelanden som presenteras i realtid (med JavaScript) kan bli automatiskt tydliggjorda genom role-attribut, aria-live eller liknande, utan att först få fokus. Se till att de som använder tekniska hjälpmedel som exempelvis skärmläsare och förstoringsprogram kan göras uppmärksamma på viktiga meddelanden även om de presenteras utanför det område på sidan som användaren har i fokus. Berörda användare riskerar annars att missa varningar, upplysningar och felmeddelanden.",
+    "tag": "Formulär",
+    "kriterietId": "4.1.3",
+    "kriteriet": "AA"
 }
 ]
 }
